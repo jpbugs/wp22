@@ -1,0 +1,105 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: #da688e; /* same as #da688e */
+  font-size: 70px;
+  text-align: center;
+}
+
+h2{
+  color: #da688e; /* same as #da688e */
+  text-decoration-line: underline;
+}
+
+h5 {
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.description {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle {
+  color: black;
+  margin-top: -30px;
+  font-style: normal;
+  text-align: center;
+}
+
+.title {
+  color: black;
+  font-size: 27px;
+}
+
+.page-style{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: -10px;
+}
+
+.bubble{
+  border-style: solid;
+  border-color: pink;
+  border-width: 2px;
+  border-radius: 30px;
+  padding: 20px 20px 20px 20px;
+}
+
+.bubble:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  opacity: 0.3;
+  transition: 0.5s;
+}
+
+.down{
+  margin-top: 55px
+}
+
+.picture-style{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.maintitle{
+  margin-top: -45px;
+  border-style: double;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.context{
+  display:flex;
+  flex-direction: row;
+  height: 500px;
+}
+
+.down2{
+  margin-top: 45px;
+}
+
+.down3{
+  margin-top: 45px;
+}
+
+.down4{
+  margin-top: 45px;
+}
+
+.down5{
+  margin-top: 45px;
+}
