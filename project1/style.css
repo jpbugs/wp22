@@ -71,35 +71,107 @@ h5 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 150px;
+  margin-right: 150px;
+  column-gap: 20px;
 }
 
 .maintitle{
   margin-top: -45px;
   border-style: double;
+  border-width: 8px;
+  border-color: pink;
   margin-left: 200px;
   margin-right: 200px;
 }
 
-.context{
+.contents{
   display:flex;
   flex-direction: row;
   height: 500px;
 }
 
-.down2{
+
+.body{
+  display:flex;
+  flex-direction: row;
+  height: 500px;
+}
+
+.body-style{
+  alight-items: stretch;
+  justify-content: space-around;
+  border-width: 3px;
+  border-color: lightpink;
+  background-color: #ffd2d2; /* same as #ffd2d2 */
+  border-style: solid;
+  border-radius: 7px;
+  flex: 1;
+  margin: 10px 30px 10px 30px;
+  padding: 10px 10px
+}
+
+.name{
+  color: black;
+}
+
+.down1{
   margin-top: 45px;
 }
 
-.down3{
-  margin-top: 45px;
+.picture1{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 400px;
+  column-gap: 5px;
+  row-gap: 10px;
 }
 
-.down4{
-  margin-top: 45px;
+.item1{
+  border-width: 2px;
+  border-color: lightpink;
+  border-style: solid;
+
+  grid-column: 1/5;
+  justify-self: center;
+  align-self: center;
+  padding: 10px;
+  font-weight: bold;
 }
 
-.down5{
-  margin-top: 45px;
+.item2{
+  border-width: 2px;
+  border-color: lightpink;
+  border-style: solid;
+  height: 40px;
+  grid-column: 1/5;
+  justify-self: center;
+  align-self: center;
+  padding-top: 15px;
+  padding-bottom: 0;
+  padding-left: 65px;
+  padding-right: 65px;
+  font-style: italic;
+  margin-top: -10px;
 }
+
+.item3{
+  border-width: 2px;
+  border-color: lightpink;
+  border-style: solid;
+  grid-column: 1/2;
+  font-weight: bold;
+}
+
+.item4{
+  border-width: 2px;
+  border-color: lightpink;
+  border-style: solid;
+  grid-column: 2/5;
+  font-style: italic;
+}
+
+
+
+
+.
